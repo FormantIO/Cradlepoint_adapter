@@ -5,11 +5,12 @@
 Data from the Cradlepoint is ingested under two main categories, modem diagnostics and GPS.
 Ingestion for modem diagnostics and GPS is controlled by setting the Application Configurations (found in Device Configuration) for 'capture_cp_stats' and 'capture_gps' to 'true'.
 
-All ingested data is tagged with '{"carrier":carrier}' and '{"modem":modem}'
 
 ### Modem Diagnostics
 
-The following is ingested if 'capture_cp_stats' is set to 'true'
+The following is ingested if 'capture_cp_stats' is set to 'true'.
+All ingested data is tagged with '{"carrier":carrier}' and '{"modem":modem}'
+
 
 -   modem_rsrq (float)
 -   modem_dbm (float)

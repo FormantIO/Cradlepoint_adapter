@@ -1,6 +1,4 @@
 formant
 wstool
 vcstools
-catkin_tools
-catkin_pkg
 requests
